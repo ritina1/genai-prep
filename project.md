@@ -6,7 +6,13 @@ azure open ai ,azure model data model r api key die use kratam
 azure portal e model ki kre deploy krbo ? use kre nijer kaje use ki kr ekrbo 
 azure portal model,
 
-project idea-chatbot type(33 min)
+project idea-chatbot type(33 min)  
 role question answer question tate audio support kre ,question gulo asche vector store e store hoe jachhe automatically ,question ta user voice on kre send krlo pathalo ami otake open ai use kre text krlam die vector store e store kre dilam question hisebe,prompt kre pathie dilam gpt 4 o mini rkache ,
 
 search client e 
+
+
+
+ki ki search krte pre attendance data store ache ki na ?
+kno absent dekhache esb jiges krbo sourav da ke?
+
