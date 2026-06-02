@@ -84,3 +84,30 @@ Parallel Processing
 Context Understanding
    ↓
 Prediction
+
+15.Complete Architecture
+WhatsApp User
+      ↓
+Audio Message
+      ↓
+Speech-to-Text
+      ↓
+Transcription
+      ↓
+Embedding Model
+      ↓
+Azure AI Search (Vector DB)
+      ↓
+User Query
+      ↓
+Query Embedding
+      ↓
+Similarity Search
+      ↓
+Relevant Conversations/Documents
+      ↓
+Prompt Engineering
+      ↓
+GPT-4o-mini
+      ↓
+Response
