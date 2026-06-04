@@ -111,3 +111,49 @@ Prompt Engineering
 GPT-4o-mini
       ↓
 Response
+
+16.
+Q: Why did you choose text-embedding-ada-002?
+Strong Interview Answer
+
+We chose text-embedding-ada-002 because it provided a good balance between embedding quality, cost, latency, and integration with Azure OpenAI. Our use case required semantic search over historical conversations and knowledge-base content, and ada-002 generated high-quality embeddings that worked well for vector similarity search in Azure AI Search.
+like : how many casual lives 
+and what is the casual leaves allotmemnt diff words same meNING
+17.
+What exactly does Ada-002 produce?
+
+Answer:
+
+It converts text into a high-dimensional vector representation that captures semantic meaning. These vectors can then be compared using similarity metrics such as cosine similarity.
+
+18.
+what is azure open ai?
+Azure OpenAI is a Microsoft-managed service that provides access to OpenAI models such as GPT and embedding models through Azure, offering enterprise-grade security, scalability, monitoring, and integration with other Azure services.
+
+19.Q: Why did you choose GPT-4o-mini?
+Strong Interview Answer
+
+We chose GPT-4o-mini because it provided a good balance between response quality, latency, and cost. Our WhatsApp assistant handled a large number of user interactions, so we needed a model that could generate accurate responses while keeping API costs and response times manageable.
+Our use case was:
+
+Attendance queries
+Employee support
+FAQ responses
+RAG-based retrieval
+
+The difficult knowledge retrieval was handled by Azure AI Search.
+
+The LLM mainly needed to:
+
+understand the question
+use retrieved context
+generate a natural answer
+
+GPT-4o-mini was sufficient for that.
+
+20.If Interviewer Asks:
+Why not GPT-4o?
+
+Answer:
+
+GPT-4o generally provides stronger reasoning capabilities, but our use case focused on retrieving company-specific information and generating conversational responses. GPT-4o-mini met our quality requirements while offering lower latency and lower operational cost.
